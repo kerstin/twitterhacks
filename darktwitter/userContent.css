@@ -1,0 +1,17 @@
+@-moz-document domain(twitter.com) {
+    .global-nav-inner {
+        background: #000000 !important;
+    }
+    .dashboard .stats, .home-tweet-box {
+        background-color: #000000 !important;
+        border: 1px solid rgb(0, 0, 0) !important;
+    }
+    .profile-card .flex-module {
+        background-color: #000000 !important;
+        border: 1px solid rgb(0, 0, 0) !important;
+    }
+    .profile-header-inner-overlay {
+        width: 588px !important;
+        top: 96px !important;
+    }
+}
