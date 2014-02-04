@@ -7,7 +7,6 @@ The easiest way to find your profile folder is from within Firefox: click on the
 
 Now navigate to the "chrome" folder inside this directory, drop the .css file into it, restart Firefox and voilà!
 
-
 (To get rid of #darktwitter again and switch back to #newtwitter, just delete the userContent.css file from your chrome folder and restart FF.)
 
 ##On Chrome
@@ -16,4 +15,6 @@ Because I was asked about this, I added a quick (and super dirty) hack for Chrom
 Download the above [Custom.css](Custom.css) file and drop it into **Default > User Stylesheets** in your Chrome installation folder (on Mac, the full path to your Chrome file is YourUserName/Library/Application Support/Google/Chrome - I'd appreciate pointers on where it can be found on Windows).
 
 The changes should take effect immediately, no need to restart Chrome.
+
+(To get rid of #darktwitter again, just delete the Custom.css stylesheet from your User Stylesheets folder.)
 
