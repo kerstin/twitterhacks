@@ -2,5 +2,5 @@
 Just miscellaneous Twitter hacks...
 
 
-##[darktwitter]([(/darktwitter/)
+##[darktwitter](/darktwitter/)
 Turn the new, bright, white Twitter back to black.
