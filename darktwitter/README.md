@@ -1,4 +1,4 @@
-#darktwitter
+# #darktwitter
 
 ##On Firefox
 Firefox users who don't like the new, bright, white Twitter design (as of 14-02-04) can download the above [userContent.css](userContent.css) file and save it to their FF profile directory (click through to the file and then on the "Raw" button to display it) to make the Twitter navigation bar and a few other boxes turn back to black.
