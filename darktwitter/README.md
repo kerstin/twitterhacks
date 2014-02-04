@@ -1,5 +1,10 @@
 # #darktwitter
 
+I've now added screenshots so you can see what the Twitter homepage (or more precisely, the "Home" and "Me" tab) look(s) like with #darktwitter compared to #newtwitter.
+
+**Pro tip:** you can change the colour of all links (including the coloured elements in your top navigation bar and your stats bar) to something else in your [Twitter settings](https://twitter.com/settings/design) under "Link color".
+
+
 ##On Firefox
 Firefox users who don't like the new, bright, white Twitter design (as of 14-02-04) can download the above [userContent.css](userContent.css) file and save it to their FF profile directory (click through to the file and then on the "Raw" button to display it) to make the Twitter navigation bar and a few other boxes turn back to black.
 
