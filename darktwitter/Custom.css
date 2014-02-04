@@ -1,0 +1,39 @@
+/**
+* A custom stylesheet for Chrome to turn #newtwitter into #darktwitter.
+*
+* Kerstin Kollmann <code∆kerstinkollmann·com>
+* Copyright (c) 2014, Kerstin Kollmann
+* http://opensource.org/licenses/MIT MIT
+* http://kerstinkollmann.com/
+*
+*/
+
+/*
+* Remove or comment out any elements which you do not want
+* changed from #newtwitter white to #darktwitter black.
+*/
+
+/* navigation bar at top of page */
+.global-nav-inner {
+    background: #000000 !important;
+}
+/* stats bar below user header image on "Me" tab */
+.profile-card .flex-module {
+    background-color: #000000 !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+/* make header overlay line up nicely with stats bar */
+.profile-header-inner-overlay {
+    width: 588px !important;
+    top: 96px !important;
+}
+/* stats bar below small version of user header image on "Home" tab */
+.dashboard .stats {
+    background-color: #000000 !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+/* "Compose new Tweet..." box on "Home" tab */
+.home-tweet-box {
+    background-color: #000000 !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
