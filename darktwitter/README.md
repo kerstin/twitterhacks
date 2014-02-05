@@ -1,25 +1,32 @@
 # #darktwitter
 
-I've now added screenshots so you can see what the Twitter homepage (or more precisely, the "Home" and "Me" tab) look(s) like with #darktwitter compared to #newtwitter.
+If you don't like the new, bright, white Twitter design and would like to switch your navigation bar (and a few other boxes) back to black, you've come to the right place.
 
-**Pro tip:** you can change the colour of all links (including the coloured elements in your top navigation bar and your stats bar) to something else in your [Twitter settings](https://twitter.com/settings/design) under "Link color".
+To see what #darktwitter looks like, check the Screenshots folder above. **Pro tip:** you can change the colour of all links (including coloured elements in your top navigation bar and your stats bar) to something else in your [Twitter settings](https://twitter.com/settings/design).
+
+If you find this solution useful, consider spreading the word on Twitter using the hashtag #darktwitter (and namechecking @kkvie to let me know about it!).
 
 
-##On Firefox
-Firefox users who don't like the new, bright, white Twitter design (as of 14-02-04) can download the above [userContent.css](userContent.css) file and save it to their FF profile directory (click through to the file and then on the "Raw" button to display it) to make the Twitter navigation bar and a few other boxes turn back to black.
+## Firefox
+Download the above [userContent.css](userContent.css) file (click through to the file and then press the "Raw" button to display it) and save it to your FF profile. 
 
-The easiest way to find your profile folder is from within Firefox: click on the "Help" menu, select "Troubleshooting Information" and in the Troubleshooting tab that opens click the button next to where it says "Profile Folder" - this should open your Firefox profile directory in your file browser.
+You can find your profile folder from within Firefox by clicking on the "Help" menu, selecting "Troubleshooting Information" and, in the Troubleshooting tab that opens, clicking the button next to where it says "Profile Folder". This should open your Firefox profile directory in your file browser.
 
-Now navigate to the "chrome" folder inside this directory, drop the .css file into it, restart Firefox and voilà!
+Now navigate to the `chrome` folder inside this directory, drop the .css file into it, restart Firefox and voilà!
 
-(To get rid of #darktwitter again and switch back to #newtwitter, just delete the userContent.css file from your chrome folder and restart FF.)
+(To get rid of #darktwitter again and switch back to #newtwitter, simply delete the userContent.css file from your chrome folder and restart FF.)
 
-##On Chrome
-Because I was asked about this, I added a quick (and super dirty) hack for Chrome too, though it looks like Chrome will not be supporting customised stylesheets [for much longer](http://code.google.com/p/chromium/issues/detail?id=53596).
+## Chrome & chromium
+The CSS hack for Chrome (and chromium) isn't as clean as the Firefox one and it looks like Chrome will not be supporting customised stylesheets [for much longer](http://code.google.com/p/chromium/issues/detail?id=53596), but do give it a try for as long as you can still use it!
 
-Download the above [Custom.css](Custom.css) file (click through to the file and then on the "Raw" button to display it) and drop it into **Default > User Stylesheets** in your Chrome installation folder. (On Mac, the full path to your Chrome installation is YourUserName/Library/Application Support/Google/Chrome, on Windows 7 or Vista it should be C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default - more info [here](http://www.chromium.org/user-experience/user-data-directory).)
+Download the above [Custom.css](Custom.css) file (click through to the file and then press the "Raw" button to display it) and save it to `Default > User Stylesheets` in your Chrome installation folder.
+
+The full paths to the Chrome installation folder are:<br>
+on Mac: `YourUserName/Library/Application Support/Google/Chrome`<br>
+on Win7 & Vista: `C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default`<br>
+(More paths for both Chrome and chromium on different OS, including Linux, are listed [on this page](http://www.chromium.org/user-experience/user-data-directory).)
 
 The changes should take effect immediately, no need to restart Chrome.
 
-(To get rid of #darktwitter again, just delete the Custom.css stylesheet from your User Stylesheets folder.)
+(To get rid of #darktwitter again and switch back to #newtwitter, simply delete the Custom.css file from your `User Stylesheets` folder.)
 
