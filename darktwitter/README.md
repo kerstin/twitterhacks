@@ -4,7 +4,7 @@ If you don't like the new, bright, white Twitter design and would like to switch
 
 To see what #darktwitter looks like, check the Screenshots folder above. **Pro tip:** you can change the colour of all links (including coloured elements in your top navigation bar and your stats bar) to something else in your [Twitter settings](https://twitter.com/settings/design).
 
-If you find this solution useful, consider spreading the word on Twitter using the hashtag #darktwitter (and namechecking @kkvie to let me know about it!).
+If you find this solution useful, consider spreading the word on Twitter using the hashtag #darktwitter (and namechecking [@kkvie](https://twitter.com/kkvie) to let me know about it!).
 
 
 ## Firefox
