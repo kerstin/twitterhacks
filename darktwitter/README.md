@@ -17,7 +17,7 @@ Now navigate to the "chrome" folder inside this directory, drop the .css file in
 ##On Chrome
 Because I was asked about this, I added a quick (and super dirty) hack for Chrome too, though it looks like Chrome will not be supporting customised stylesheets [for much longer](http://code.google.com/p/chromium/issues/detail?id=53596).
 
-Download the above [Custom.css](Custom.css) file (click through to the file and then on the "Raw" button to display it) and drop it into **Default > User Stylesheets** in your Chrome installation folder (on Mac, the full path to your Chrome installation is YourUserName/Library/Application Support/Google/Chrome - I'd appreciate pointers on where it can be found on Windows).
+Download the above [Custom.css](Custom.css) file (click through to the file and then on the "Raw" button to display it) and drop it into **Default > User Stylesheets** in your Chrome installation folder. (On Mac, the full path to your Chrome installation is YourUserName/Library/Application Support/Google/Chrome, on Windows 7 or Vista it should be C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default - more info [here](http://www.chromium.org/user-experience/user-data-directory).)
 
 The changes should take effect immediately, no need to restart Chrome.
 
