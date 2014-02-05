@@ -7,7 +7,7 @@ To see what #darktwitter looks like, check the Screenshots folder above. **Pro t
 If you find this solution useful, consider spreading the word on Twitter using the hashtag #darktwitter (and namechecking [@kkvie](https://twitter.com/kkvie) to let me know about it!).
 
 
-## Firefox
+## On Firefox
 Download the above [userContent.css](userContent.css) file (click through to the file and then press the "Raw" button to display it) and save it to your FF profile. 
 
 You can find your profile folder from within Firefox by clicking on the "Help" menu, selecting "Troubleshooting Information" and, in the Troubleshooting tab that opens, clicking the button next to where it says "Profile Folder". This should open your Firefox profile directory in your file browser.
@@ -16,7 +16,7 @@ Now navigate to the `chrome` folder inside this directory, drop the .css file in
 
 (To get rid of #darktwitter again and switch back to #newtwitter, simply delete the userContent.css file from your chrome folder and restart FF.)
 
-## Chrome & chromium
+## On Chrome & chromium
 The CSS hack for Chrome (and chromium) isn't as clean as the Firefox one and it looks like Chrome will not be supporting customised stylesheets [for much longer](http://code.google.com/p/chromium/issues/detail?id=53596), but do give it a try for as long as you can still use it!
 
 Download the above [Custom.css](Custom.css) file (click through to the file and then press the "Raw" button to display it) and save it to `Default > User Stylesheets` in your Chrome installation folder.
